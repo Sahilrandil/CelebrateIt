@@ -1,0 +1,25 @@
+@media print {
+    @page {
+        margin: 0;
+        size: A4 portrait;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        /* -webkit-print-color-adjust: exact; */
+    }
+
+    .invoice-container {
+        width: 100%;
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+        background-color: white !important;
+    }
+
+    .no-print {
+        display: none !important;
+    }
+    
+}

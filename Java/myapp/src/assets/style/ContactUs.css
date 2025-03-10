@@ -1,0 +1,140 @@
+/* General styling for the container */
+.contact-container {
+  background-color: #f9f9f9;
+  padding: 40px;
+  font-family: 'Arial', sans-serif;
+  width: 100%;
+  max-width: 1000px; /* Ensure responsiveness */
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Styling for the form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px; /* Keep the form within a reasonable width */
+  margin: auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #007bff;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 200px;
+  margin: auto; /* Center the button */
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.submit-button:active {
+  background-color: #004085;
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 5px;
+}
+
+/* Container for the whole layout */
+.half-containerr {
+  height: 100%; /* Full height */
+  background: #ffefed;
+  display: flex; /* Using Flexbox to align items side by side */
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Make it responsive */
+}
+
+ /* Half Image Section */
+.half-imagee {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  max-width: 50%;
+}
+
+.half-imagee img {
+  width: 653px;
+  height: 685px;
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+/* Half Text Section */
+.half-textt {
+  background: rgb(237,193,193);
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+  max-width: 50%;
+}
+
+.half-textt h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.half-textt p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .half-containerr {
+    flex-direction: column;
+    height: auto; /* Adjust height for mobile */
+  }
+  
+  .half-imagee, .half-textt {
+    max-width: 100%;
+  }
+
+  .contact-form {
+    width: 100%; /* Make form fit the screen */
+  }
+}

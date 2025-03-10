@@ -1,0 +1,85 @@
+.feedback-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .feedback-card {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+  }
+  
+  .feedback-image-container {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .feedback-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .feedback-details {
+    text-align: left;
+    width: 100%;
+  }
+  
+  .feedback-details p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .no-feedback-data {
+    text-align: center;
+    color: #555;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .toast-delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  .toast-delete-btn:hover {
+    background-color: darkred;
+  }
+  /* .delete-feedback-btn{
+    background-color:rgb(190 30 33);
+    padding: 8px;
+    color: white;
+    border-radius: 8px;
+  } */
+
+  .delete-feedback-btn {
+    background-color: rgb(197, 2, 2);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .delete-feedback-btn:hover {
+    background-color: darkred;
+  }
+  

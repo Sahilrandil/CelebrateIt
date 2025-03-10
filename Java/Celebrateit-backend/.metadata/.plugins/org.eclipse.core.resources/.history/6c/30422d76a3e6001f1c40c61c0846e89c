@@ -1,0 +1,10 @@
+package com.celebrateit.service;
+
+
+
+import com.celebrateit.dto.BookingsRequestDTO;
+
+
+public interface BookingsService {
+    String addBooking(BookingsRequestDTO dto);
+}

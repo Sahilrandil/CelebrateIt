@@ -1,0 +1,29 @@
+
+package com.celebrateit.dto;
+
+import com.celebrateit.pojo.Users;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+
+public class FeedbackDTO {
+	public FeedbackDTO(Integer feedbackId2, String imageUrl2, String message2, double rating2, Users user) {
+		// TODO Auto-generated constructor stub
+	}
+	private Integer feedbackId;
+  
+    private String imageUrl;
+    private String message;
+    private double rating;
+    private Integer userid;
+
+}

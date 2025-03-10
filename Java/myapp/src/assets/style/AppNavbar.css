@@ -1,0 +1,127 @@
+/* General Style for the Navbar */
+
+.navbar {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 0; /* Ensure no extra top margin */
+  border-bottom: 2px solid #dfdfdf; /* Subtle bottom border */
+  font-family: 'Arapey', serif;
+  /* background-color: #ffffff; Light pink background for navbar */
+  color: #000000; /* Default text color for navbar content */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+  margin-left: 0px;
+  margin-right: 0%;
+}
+
+/* Style for the Container inside Navbar */
+.container1 {
+  /* background-color: transparent; Remove extra background for container */
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  
+  margin-left: 0px;
+  
+}
+.nav-style{
+  background-color: #e3e1e1;
+  margin-left: 0px;
+}
+
+
+/* Navbar Brand Logo */
+.navbar-brand img {
+  width: 90px;
+  height: 80px;
+  border-radius: 50%; /* Circular logo */
+  margin-left: 100px; /* Align the logo properly */
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+  color: #000000 !important; /* Dark color for nav links */
+  font-weight: bold; /* Slightly bold font */
+  margin-right: 20px; 
+  /* Space between links */ 
+  text-transform: uppercase; /* Uppercase text for links */
+  font-size: 16px; /* Font size for nav links */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #000000 !important; /* Hover color for nav links */
+}
+
+/* Dropdown Menu Styling */
+.navbar-nav .nav-item .nav-link {
+  position: relative;
+}
+
+.navbar-nav .nav-item .dropdown-menu {
+  background-color: #fff; /* White background for dropdown */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  min-width: 200px; /* Set a minimum width */
+}
+
+.navbar-nav .nav-item .dropdown-item {
+  color: #0d0c0c !important; /* Text color for dropdown items */
+  font-weight: bold;
+  padding: 10px 20px; /* Add padding inside the dropdown items */
+}
+
+.navbar-nav .nav-item .dropdown-item:hover {
+  background-color: #fff4f4; /* Change background color on hover */
+  color: #3a042d !important; /* Change text color on hover */
+}
+
+/* Navbar Toggle button (hamburger menu for mobile) */
+.navbar-toggler {
+  border-color: #fdc3f5; /* Pink border for the toggle button */
+}
+
+.navbar-toggler-icon {
+  background-color: #cdcccc; /* Change hamburger icon color */
+}
+
+/* Responsive Design */
+@media (max-width: 1500px) {
+  .navbar-nav {
+    margin-top: 10px;
+    text-align: center; 
+    /* Center align navbar links on mobile */
+  }
+
+  .navbar-nav .nav-link {
+    padding: 10px 20px;
+     /* Adjust padding for smaller screens */
+  }
+
+  /* .navbar-collapse { */
+    /* margin-top: 20px; Add some space above collapsed menu */
+  /* } */
+
+  .navbar-nav .nav-item {
+    margin: 5px 0; /* Add vertical spacing for items in mobile view */
+  }
+}
+
+/* Navbar Nav Customization */
+.navbar-nav {
+  margin-left: auto; /* Center the navbar links */
+  font-size: 16px; /* Font size for nav items */
+}
+/*  */
+
+.me-auto{
+ margin-left: 90px;
+}
+
+@media (min-width: 1500px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      max-width: 1500px;
+      background: #2e31ff;
+      background-color: aqua;
+  }
+}
+.container {
+  background: rgb(255, 255, 255);
+}

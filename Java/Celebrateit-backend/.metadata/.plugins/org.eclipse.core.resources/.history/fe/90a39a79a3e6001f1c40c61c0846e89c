@@ -1,0 +1,53 @@
+package com.celebrateit.service;
+
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.stereotype.Service;
+import org.modelmapper.ModelMapper;
+import com.celebrateit.dao.*;
+import com.celebrateit.dto.BookingsRequestDTO;
+import com.celebrateit.pojo.*;
+
+import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+
+@Service
+@Transactional(propagation = Propagation.REQUIRES_NEW) // Ensures a fresh transaction
+@RequiredArgsConstructor
+@Slf4j
+public class BookingsServiceImpl implements BookingsService {
+
+    private final BookingsDao bookingsDao;
+    private final UserDao userDao;
+    private final ServiceDao servicesDao;
+    private final CategoryDao categoriesDao;
+    private final ModelMapper modelMapper;
+
+    @Override
+    public String addBooking(BookingsRequestDTO dto) {
+        try {
+            Users user = userDao.findById(dto.getUserid())
+                    .orElseThrow(() -> new RuntimeException("User not found"));
+
+            Services service = servicesDao.findById(dto.getServiceid())
+                    .orElseThrow(() -> new RuntimeException("Service not found"));
+
+            Categories category = categoriesDao.findById(dto.getCategorieid())
+                    .orElseThrow(() -> new RuntimeException("Category not found"));
+
+            Bookings booking = modelMapper.map(dto, Bookings.class);
+            booking.setUser(user);
+            booking.setService(service);
+            booking.setCategory(category);
+
+            // Ensure we're saving a new entity, not updating an existing one
+            booking.setBookingid(null);
+
+            bookingsDao.save(booking);
+            return "Booking successful! Your Booking ID is: " + booking.getBookingid();
+        } catch (Exception e) {
+            log.error("Error while adding booking: {}", e.getMessage(), e);
+            return "Booking failed. Please try again.";
+        }
+    }
+}

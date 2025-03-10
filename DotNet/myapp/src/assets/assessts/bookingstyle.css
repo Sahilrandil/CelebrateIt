@@ -1,0 +1,17 @@
+.form-div{
+        display: 'flex';
+        justify-content: 'center';
+        align-items: 'center';
+        margin-top: 50px; 
+        margin-bottom: 50px;
+        padding: '50px';
+}
+
+.form-inner{
+height: auto;
+width: 600px; 
+border-radius: 20px;
+background-color: #D8E2DC;
+padding: 20px;
+font-weight: 25px;
+}

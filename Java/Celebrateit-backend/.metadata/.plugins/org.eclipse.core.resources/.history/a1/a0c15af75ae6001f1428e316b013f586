@@ -1,0 +1,54 @@
+//package com.celebrateit.controller;
+//
+//import com.celebrateit.dto.BookingsDto;
+//import com.celebrateit.pojo.BookingStatus;
+//import com.celebrateit.service.BookingsService;
+//import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.http.ResponseEntity;
+//import org.springframework.web.bind.annotation.*;
+//
+//import java.util.List;
+//
+//@RestController
+//@RequestMapping("/api/bookings")
+//public class BookingsController {
+//
+//    @Autowired
+//    private BookingsService bookingService;
+//
+//    @PostMapping("/add")
+//    public ResponseEntity<Integer> addBooking(@RequestBody BookingsDto dto) {
+//        int bookingId = bookingService.addBooking(dto);
+//        if (bookingId != -1)
+//            return ResponseEntity.ok(bookingId);
+//        else
+//            return ResponseEntity.badRequest().body(-1);
+//    }
+//
+//    @GetMapping("/status")
+//    public ResponseEntity<List<BookingsDto>> getBookingsByStatus(@RequestParam BookingStatus status) {
+//        List<BookingsDto> bookings = bookingService.getBookingsByStatus(status);
+//        if (bookings.isEmpty()) {
+//            return ResponseEntity.notFound().build();
+//        }
+//        return ResponseEntity.ok(bookings);
+//    }
+//
+//    @GetMapping("/user/{userId}")
+//    public ResponseEntity<List<BookingsDto>> getBookingsByUserId(@PathVariable int userId) {
+//        List<BookingsDto> bookings = bookingService.getBookingsByUserId(userId);
+//        if (bookings.isEmpty()) {
+//            return ResponseEntity.notFound().build();
+//        }
+//        return ResponseEntity.ok(bookings);
+//    }
+//
+//    @GetMapping("/{bookingId}")
+//    public ResponseEntity<BookingsDto> getBookingById(@PathVariable int bookingId) {
+//    	BookingsDto booking = bookingService.getBookingById(bookingId);
+//        if (booking == null) {
+//            return ResponseEntity.notFound().build();
+//        }
+//        return ResponseEntity.ok(booking);
+//    }
+//}

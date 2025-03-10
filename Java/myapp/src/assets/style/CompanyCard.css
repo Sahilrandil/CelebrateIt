@@ -1,0 +1,133 @@
+/* Company Card Styles */
+.company-card {
+  display: flex;
+  flex-direction: column; /* Vertically aligned layout */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: center; /* Center-align text */
+}
+
+.company-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.company-image img {
+  width: 100%; /* Full width of the card */
+  height: 200px; /* Fixed height */
+  object-fit: cover; /* Maintain aspect ratio, crop overflow */
+  border-bottom: 1px solid #ddd;
+}
+
+.company-details {
+  padding: 16px;
+  flex: 1; /* Take up remaining space */
+}
+
+.header h2 {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.rating {
+  font-size: 0.9em;
+  color: #777;
+  margin-bottom: 8px;
+}
+
+.rating span:first-child {
+  color: #f39c12; /* Gold color for stars */
+}
+
+.description {
+  font-size: 0.95em;
+  color: #555;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.footer {
+  margin-top: auto; /* Push buttons to the bottom */
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  gap: 8px; /* Space between buttons */
+}
+
+.price {
+  font-size: 1em;
+  font-weight: bold;
+  color: #27ae60;
+  margin-bottom: 8px;
+}
+.promotion {
+  font-size: 0.9em;
+  color: #e74c3c;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 8px; /* Add spacing below promotion text */
+}
+
+.promotion-tooltip {
+  position: absolute;
+  bottom: 110%; /* Position below the text */
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 12px;
+  width: 280px;
+  z-index: 100;
+}
+
+.promotion-tooltip::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #ddd transparent;
+}
+
+.promotion-tooltip strong {
+  font-size: 1em;
+  color: #333;
+}
+
+.promotion-tooltip p {
+  margin: 8px 0;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.promotion-link {
+  color: #e74c3c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.promotion-link:hover {
+  text-decoration: underline;
+}
+
+.book-photography {
+  padding: 10px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-photography:hover {
+  background-color: #c0392b;
+}

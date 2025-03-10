@@ -1,0 +1,5 @@
+package com.celebrateit.dao;
+
+public interface FeedbackDao {
+
+}

@@ -1,0 +1,241 @@
+/* src/components/ImageMarquee.css */
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabriel+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+
+.marquee-containerr {
+    width: 100%;
+    overflow: hidden; /* Hide the overflowing content */
+    height: 300px;
+  }
+  
+  .marquee-content {
+    display: flex;
+    animation: marquee 10s linear infinite;
+  }
+  
+  .marquee-image {
+    width: 600px; /* Adjust the width of images */
+    height: auto;
+    margin-right: 5px; /* Add some space between images */
+  }
+  
+  /* Keyframes for the marquee effect */
+  @keyframes marquee {
+    0% {
+      transform: translateX(0); /* Start position */
+    }
+    100% {
+      transform: translateX(-100%); /* End position */
+    }
+  }
+  
+
+
+  /* Wedding Section Styles */
+.wedding-section {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .wedding-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .wedding-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .wedding-card {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .wedding-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .wedding-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .wedding-title {
+    font-size: 24px;
+    color: #222;
+    margin: 10px 0;
+  }
+  
+  .wedding-description {
+    font-size: 16px;
+    color: #555;
+    padding: 0 15px;
+  }
+  
+  .wedding-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e91e63;
+    margin: 10px 0;
+  }
+  
+  .wedding-rating {
+    font-size: 16px;
+    color: #ff9800;
+  }
+  
+  .wedding-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+  }
+  
+  .wedding-button:hover {
+    background-color: #0056b3;
+  }
+  
+
+
+
+  .form-div {
+    margin-top: 50px;
+    background-color: #f9f9f9; /* Light grey background for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a floating effect */
+    width: 100%;
+    max-width: 600px; /* Limit the maximum width */
+    margin-left: 500px;
+    margin-bottom: 15px;
+  }
+  
+  .form-inner {
+    width: 100%;
+  }
+  
+  .form-inner h5 {
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .d-flex {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .mb-3 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .text-muted {
+    font-size: 0.85rem;
+    color: #6c757d;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .form-div {
+      width: 95%;
+      padding: 15px;
+    }
+  
+    button[type="submit"] {
+      font-size: 0.9rem;
+      padding: 8px 15px;
+    }
+  }
+  
+
+
+  /* Message Section */
+.message-section {
+  text-align: center;
+  margin: 40px 20px;
+  padding: 20px;
+  background-color: #f8f9fa; /* Light gray background */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.message-image {
+  width: 100px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.message-title {
+  font-family: 'Tangerine', serif;
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+
+
+.message-text {
+  font-family: 'Old Newspaper', serif;
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  margin: 10px auto;
+  max-width: 800px;
+}

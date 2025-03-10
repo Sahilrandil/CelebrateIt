@@ -1,0 +1,40 @@
+package com.celebrateit.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import com.celebrateit.dto.ContactDTO;
+import com.celebrateit.service.ContactService;
+
+@RestController
+@RequestMapping("/api/contacts")
+public class ContactController {
+
+    @Autowired
+    private ContactService contactService;
+
+    @PostMapping
+    public ResponseEntity<ContactDTO> createOrUpdateContact(@RequestBody ContactDTO contactDTO) {
+        return ResponseEntity.ok(contactService.createOrUpdateContact(contactDTO));
+    }
+
+    @GetMapping
+    public ResponseEntity<List<ContactDTO>> getAllContacts() {
+        return ResponseEntity.ok(contactService.getAllContacts());
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<ContactDTO> getContactById(@PathVariable Integer id) {
+        ContactDTO contact = contactService.getContactById(id);
+        return contact != null ? ResponseEntity.ok(contact) : ResponseEntity.notFound().build();
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> deleteContact(@PathVariable Integer id) {
+        contactService.deleteContact(id);
+        return ResponseEntity.noContent().build();
+    }
+}

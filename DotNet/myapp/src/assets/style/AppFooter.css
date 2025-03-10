@@ -1,0 +1,68 @@
+.footer {
+    background-color: #dfdfdf;
+    color: rgb(62, 62, 62);
+    font-family: 'Arial', sans-serif;
+    
+  }
+  
+  .footer a {
+    color: rgb(35, 34, 34);
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-links {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+    color: rgb(50, 49, 49);
+    transition: transform 0.2s;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.1);
+  }
+  
+  .footer-email-input {
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  
+  .footer-btn {
+    background-color: #ff5c5c;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .footer-btn:hover {
+    background-color: #ff3b3b;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .py-5 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .right-shift a,h5 {
+    margin-left: 50px; /* Adjust the value to shift it more or less */
+  }
+  

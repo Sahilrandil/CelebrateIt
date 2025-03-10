@@ -1,0 +1,39 @@
+
+.formdiv {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #9D8189;
+}
+
+.formdiv form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.formdiv form .form-group {
+    margin-bottom: 15px;
+}
+
+.formdiv form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formdiv form input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    margin:10px;
+}
+
+.formdiv form button {
+    display: block;
+    width: 50%;
+    margin:25px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

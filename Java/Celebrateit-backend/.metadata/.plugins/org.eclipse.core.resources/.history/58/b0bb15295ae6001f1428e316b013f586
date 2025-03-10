@@ -1,0 +1,22 @@
+package com.celebrateit.dto;
+
+import java.time.LocalDate;
+import com.celebrateit.pojo.BookingStatus;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+@Getter
+@Setter
+@AllArgsConstructor
+
+public class BookingsDTO {
+	 private String eventLocation;
+	    private String pinCode;
+	    private LocalDate eventDate;
+	    private String eventDetails;
+	    private Double totalPrice;
+	    private BookingStatus bookingStatus;
+	    private int userId;
+	    private int facilityId;
+	    private int categoryId;
+}

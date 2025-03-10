@@ -1,0 +1,11 @@
+package com.celebrateit.service;
+
+import java.util.List;
+
+import com.celebrateit.dto.FeedbackDTO;
+
+public interface FeedbackService {
+	
+  
+
+}

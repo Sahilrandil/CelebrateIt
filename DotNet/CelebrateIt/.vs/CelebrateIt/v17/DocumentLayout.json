@@ -1,0 +1,361 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|c:\\users\\samruddhi\\onedrive\\desktop\\finaldtnet2.o\\celebrateit-finaldotnet\\celebrateit\\celebrateit\\data\\celebrateitcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|solutionrelative:celebrateit\\data\\celebrateitcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|c:\\users\\samruddhi\\onedrive\\desktop\\finaldtnet2.o\\celebrateit-finaldotnet\\celebrateit\\celebrateit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|solutionrelative:celebrateit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|c:\\users\\samruddhi\\onedrive\\desktop\\finaldtnet2.o\\celebrateit-finaldotnet\\celebrateit\\celebrateit\\services\\implementation\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|solutionrelative:celebrateit\\services\\implementation\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|c:\\users\\samruddhi\\onedrive\\desktop\\finaldtnet2.o\\celebrateit-finaldotnet\\celebrateit\\celebrateit\\services\\implementation\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|solutionrelative:celebrateit\\services\\implementation\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|c:\\users\\samruddhi\\onedrive\\desktop\\finaldtnet2.o\\celebrateit-finaldotnet\\celebrateit\\celebrateit\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|solutionrelative:celebrateit\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|c:\\users\\samruddhi\\onedrive\\desktop\\finaldtnet2.o\\celebrateit-finaldotnet\\celebrateit\\celebrateit\\repositories\\implementation\\bookingsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|solutionrelative:celebrateit\\repositories\\implementation\\bookingsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|c:\\users\\samruddhi\\onedrive\\desktop\\finaldtnet2.o\\celebrateit-finaldotnet\\celebrateit\\celebrateit\\services\\implementation\\bookingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|solutionrelative:celebrateit\\services\\implementation\\bookingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|c:\\users\\samruddhi\\onedrive\\desktop\\finaldtnet2.o\\celebrateit-finaldotnet\\celebrateit\\celebrateit\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|solutionrelative:celebrateit\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|c:\\users\\samruddhi\\onedrive\\desktop\\finaldtnet2.o\\celebrateit-finaldotnet\\celebrateit\\celebrateit\\model\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|solutionrelative:celebrateit\\model\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|c:\\users\\samruddhi\\onedrive\\desktop\\finaldtnet2.o\\celebrateit-finaldotnet\\celebrateit\\celebrateit\\model\\bookings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|solutionrelative:celebrateit\\model\\bookings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|c:\\users\\samruddhi\\onedrive\\desktop\\finaldtnet2.o\\celebrateit-finaldotnet\\celebrateit\\celebrateit\\model\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|solutionrelative:celebrateit\\model\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|c:\\users\\samruddhi\\onedrive\\desktop\\finaldtnet2.o\\celebrateit-finaldotnet\\celebrateit\\celebrateit\\exceptions\\invalidcredentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|solutionrelative:celebrateit\\exceptions\\invalidcredentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|c:\\users\\samruddhi\\onedrive\\desktop\\finaldtnet2.o\\celebrateit-finaldotnet\\celebrateit\\celebrateit\\dtos\\bookingsdto\\bookingsbilldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|solutionrelative:celebrateit\\dtos\\bookingsdto\\bookingsbilldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|c:\\users\\samruddhi\\onedrive\\desktop\\finaldtnet2.o\\celebrateit-finaldotnet\\celebrateit\\celebrateit\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|solutionrelative:celebrateit\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|c:\\users\\samruddhi\\onedrive\\desktop\\finaldtnet2.o\\celebrateit-finaldotnet\\celebrateit\\celebrateit\\controllers\\contactuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|solutionrelative:celebrateit\\controllers\\contactuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|c:\\users\\samruddhi\\onedrive\\desktop\\finaldtnet2.o\\celebrateit-finaldotnet\\celebrateit\\celebrateit\\celebrateit.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|solutionrelative:celebrateit\\celebrateit.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|c:\\users\\samruddhi\\onedrive\\desktop\\finaldtnet2.o\\celebrateit-finaldotnet\\celebrateit\\celebrateit\\controllers\\facilitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|solutionrelative:celebrateit\\controllers\\facilitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|c:\\users\\samruddhi\\onedrive\\desktop\\finaldtnet2.o\\celebrateit-finaldotnet\\celebrateit\\celebrateit\\repositories\\implementation\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|solutionrelative:celebrateit\\repositories\\implementation\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|c:\\users\\samruddhi\\onedrive\\desktop\\finaldtnet2.o\\celebrateit-finaldotnet\\celebrateit\\celebrateit\\services\\interface\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|solutionrelative:celebrateit\\services\\interface\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|c:\\users\\samruddhi\\onedrive\\desktop\\finaldtnet2.o\\celebrateit-finaldotnet\\celebrateit\\celebrateit\\dtos\\bookingsdto\\bookingsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0DADD0-85B4-417A-BFCE-E63DB133E71E}|CelebrateIt\\CelebrateIt.csproj|solutionrelative:celebrateit\\dtos\\bookingsdto\\bookingsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookingsService.cs",
+              "DocumentMoniker": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Services\\Implementation\\BookingsService.cs",
+              "RelativeDocumentMoniker": "CelebrateIt\\Services\\Implementation\\BookingsService.cs",
+              "ToolTip": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Services\\Implementation\\BookingsService.cs",
+              "RelativeToolTip": "CelebrateIt\\Services\\Implementation\\BookingsService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAlwBAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T19:29:14.563Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Categories.cs",
+              "DocumentMoniker": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Model\\Categories.cs",
+              "RelativeDocumentMoniker": "CelebrateIt\\Model\\Categories.cs",
+              "ToolTip": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Model\\Categories.cs",
+              "RelativeToolTip": "CelebrateIt\\Model\\Categories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T18:43:29.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BaseModel.cs",
+              "DocumentMoniker": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Model\\BaseModel.cs",
+              "RelativeDocumentMoniker": "CelebrateIt\\Model\\BaseModel.cs",
+              "ToolTip": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Model\\BaseModel.cs",
+              "RelativeToolTip": "CelebrateIt\\Model\\BaseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T18:43:19.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InvalidCredentials.cs",
+              "DocumentMoniker": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Exceptions\\InvalidCredentials.cs",
+              "RelativeDocumentMoniker": "CelebrateIt\\Exceptions\\InvalidCredentials.cs",
+              "ToolTip": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Exceptions\\InvalidCredentials.cs",
+              "RelativeToolTip": "CelebrateIt\\Exceptions\\InvalidCredentials.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T03:58:22.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookingsBillDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\DTOs\\BookingsDTO\\BookingsBillDTO.cs",
+              "RelativeDocumentMoniker": "CelebrateIt\\DTOs\\BookingsDTO\\BookingsBillDTO.cs",
+              "ToolTip": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\DTOs\\BookingsDTO\\BookingsBillDTO.cs",
+              "RelativeToolTip": "CelebrateIt\\DTOs\\BookingsDTO\\BookingsBillDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T03:58:16.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CelebrateItContext.cs",
+              "DocumentMoniker": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Data\\CelebrateItContext.cs",
+              "RelativeDocumentMoniker": "CelebrateIt\\Data\\CelebrateItContext.cs",
+              "ToolTip": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Data\\CelebrateItContext.cs",
+              "RelativeToolTip": "CelebrateIt\\Data\\CelebrateItContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA5wBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T03:57:51.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ContactUsController.cs",
+              "DocumentMoniker": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Controllers\\ContactUsController.cs",
+              "RelativeDocumentMoniker": "CelebrateIt\\Controllers\\ContactUsController.cs",
+              "ToolTip": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Controllers\\ContactUsController.cs",
+              "RelativeToolTip": "CelebrateIt\\Controllers\\ContactUsController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T03:57:00.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CelebrateIt.http",
+              "DocumentMoniker": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\CelebrateIt.http",
+              "RelativeDocumentMoniker": "CelebrateIt\\CelebrateIt.http",
+              "ToolTip": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\CelebrateIt.http",
+              "RelativeToolTip": "CelebrateIt\\CelebrateIt.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-02-10T13:07:24.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FacilitiesController.cs",
+              "DocumentMoniker": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Controllers\\FacilitiesController.cs",
+              "RelativeDocumentMoniker": "CelebrateIt\\Controllers\\FacilitiesController.cs",
+              "ToolTip": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Controllers\\FacilitiesController.cs",
+              "RelativeToolTip": "CelebrateIt\\Controllers\\FacilitiesController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T13:04:02.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Services\\Implementation\\EmailService.cs",
+              "RelativeDocumentMoniker": "CelebrateIt\\Services\\Implementation\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Services\\Implementation\\EmailService.cs",
+              "RelativeToolTip": "CelebrateIt\\Services\\Implementation\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T12:58:41.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Repositories\\Implementation\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "CelebrateIt\\Repositories\\Implementation\\AuthRepository.cs",
+              "ToolTip": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Repositories\\Implementation\\AuthRepository.cs",
+              "RelativeToolTip": "CelebrateIt\\Repositories\\Implementation\\AuthRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T12:16:01.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\appsettings.json",
+              "RelativeDocumentMoniker": "CelebrateIt\\appsettings.json",
+              "ToolTip": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\appsettings.json",
+              "RelativeToolTip": "CelebrateIt\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-10T12:15:07.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Program.cs",
+              "RelativeDocumentMoniker": "CelebrateIt\\Program.cs",
+              "ToolTip": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Program.cs",
+              "RelativeToolTip": "CelebrateIt\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T12:14:18.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Services\\Implementation\\AuthService.cs",
+              "RelativeDocumentMoniker": "CelebrateIt\\Services\\Implementation\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Services\\Implementation\\AuthService.cs",
+              "RelativeToolTip": "CelebrateIt\\Services\\Implementation\\AuthService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T12:14:09.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Services\\Interface\\IAuthService.cs",
+              "RelativeDocumentMoniker": "CelebrateIt\\Services\\Interface\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Services\\Interface\\IAuthService.cs",
+              "RelativeToolTip": "CelebrateIt\\Services\\Interface\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T12:14:06.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "CelebrateIt\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "CelebrateIt\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwGgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T12:12:13.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookingsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Repositories\\Implementation\\BookingsRepository.cs",
+              "RelativeDocumentMoniker": "CelebrateIt\\Repositories\\Implementation\\BookingsRepository.cs",
+              "ToolTip": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Repositories\\Implementation\\BookingsRepository.cs",
+              "RelativeToolTip": "CelebrateIt\\Repositories\\Implementation\\BookingsRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T20:16:45.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Bookings.cs",
+              "DocumentMoniker": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Model\\Bookings.cs",
+              "RelativeDocumentMoniker": "CelebrateIt\\Model\\Bookings.cs",
+              "ToolTip": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Model\\Bookings.cs",
+              "RelativeToolTip": "CelebrateIt\\Model\\Bookings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T20:16:20.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BookingsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\DTOs\\BookingsDTO\\BookingsDTO.cs",
+              "RelativeDocumentMoniker": "CelebrateIt\\DTOs\\BookingsDTO\\BookingsDTO.cs",
+              "ToolTip": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\DTOs\\BookingsDTO\\BookingsDTO.cs",
+              "RelativeToolTip": "CelebrateIt\\DTOs\\BookingsDTO\\BookingsDTO.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T20:15:54.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Controllers\\BookingsController.cs",
+              "RelativeDocumentMoniker": "CelebrateIt\\Controllers\\BookingsController.cs",
+              "ToolTip": "C:\\Users\\Samruddhi\\OneDrive\\Desktop\\FinalDtNet2.O\\CelebrateIt-Finaldotnet\\CelebrateIt\\CelebrateIt\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "CelebrateIt\\Controllers\\BookingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T20:15:13.659Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

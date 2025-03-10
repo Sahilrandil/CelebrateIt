@@ -1,0 +1,27 @@
+package com.celebrateit.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.celebrateit.dao.ServiceDao;
+import com.celebrateit.dto.UsersResponseDTO;
+
+import jakarta.transaction.Transactional;
+
+@Service
+@Transactional
+public class UsersServiceImpl implements UsersService {
+
+	@Autowired
+	UserDao usersDao;
+	public UsersServiceImpl() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public UsersResponseDTO getUsersDetailsById(Integer userid) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

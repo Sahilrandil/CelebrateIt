@@ -1,0 +1,29 @@
+.main-container {
+  font-family: Arial, sans-serif;
+}
+h4{
+  text-align: center;
+  text-size-adjust: 30px;
+}
+.company-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 24px; /* Space between cards */
+  padding: 32px;
+  background-color: #fcf3f8;
+}
+h4{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+  text-align: center;
+  color: #e74c3c; 
+  color: #e74c3c; 
+  text-transform: uppercase; 
+  letter-spacing: 2px; 
+  padding-bottom: 10px;
+  font-size: 2em; 
+  font-family:'Arapey',serif; 
+  font-weight: 600; 
+}

@@ -1,0 +1,63 @@
+package com.celebrateit.service;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.celebrateit.dao.ContactDao;
+import com.celebrateit.dao.FeedbackDao;
+import com.celebrateit.dto.ContactDTO;
+import com.celebrateit.dto.FeedbackDTO;
+import com.celebrateit.pojo.Contact;
+import com.celebrateit.pojo.Feedback;
+
+import jakarta.transaction.Transactional;
+
+@Service
+
+public class FeedbackServiceImpl implements FeedbackService {
+
+	@Autowired
+    private FeedbackDao feedbackDao;
+	
+	// Convert DTO to Entity
+    private Feedback convertToEntity(FeedbackDTO dto) {
+        return new Feedback();
+    }
+
+    // Convert Entity to DTO
+    private FeedbackDTO convertToDTO(Feedback feedback) {
+        return new FeedbackDTO(feedback.getFeedbackId(), feedback.getImageUrl(), feedback.getMessage());
+    }
+	
+//    @Transactional
+//	@Override
+//	public FeedbackDTO createOrUpdateFeedback(FeedbackDTO feedbackDTO) {
+//		Feedback feedback = convertToEntity(feedbackDTO);
+//        Feedback savedFeedback = feedbackDao.save(feedback);
+//        return convertToDTO(savedFeedback);
+//	}
+
+	@Override
+	public List<FeedbackDTO> getAllFeedbacks() {
+		return feedbackDao.findAll()
+                .stream()
+                .map(this::convertToDTO)
+                .collect(Collectors.toList());
+	}
+
+	@Override
+	public FeedbackDTO getFeedbackById(Integer id) {
+		return feedbackDao.findById(id)
+                .map(this::convertToDTO)
+                .orElse(null);
+	}
+
+	@Override
+	public void deleteFeedback(Integer id) {
+		feedbackDao.deleteById(id);
+	}
+
+}

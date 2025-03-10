@@ -1,0 +1,62 @@
+package com.quickrent.service;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.modelmapper.ModelMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.stereotype.Service;
+
+import com.quickrent.dao.UserDao;
+import com.quickrent.dto.LoginRequestDTO;
+import com.quickrent.dto.SignupRequestDTO;
+import com.quickrent.pojo.User;
+
+import jakarta.transaction.Transactional;
+
+@Service
+@Transactional
+public class AuthServiceImpl implements AuthService {
+	@Autowired
+	UserDao userDao;
+	@Autowired
+	PasswordEncoder passwordEncoder;
+	@Autowired
+	AuthenticationManager authManager; 
+	@Autowired
+	JwtService jwtService;
+	@Autowired
+	ModelMapper mapper;
+	
+	@Override
+	public String authenticate(LoginRequestDTO dto) {
+        authManager.authenticate(
+                new UsernamePasswordAuthenticationToken(
+                        dto.getEmail(),
+                        dto.getPassword()
+                )
+        );
+
+        User user = userDao.findByEmail(dto.getEmail())
+        		.orElseThrow();
+        Map<String, Object> claims = new HashMap<>();
+        claims.put("userId", user.getUsersid());
+        claims.put("role", user.getUserRole());
+        return jwtService.generateToken(claims, user);
+	}
+
+	@Override
+	public String addUser(SignupRequestDTO dto) {
+		// TODO Auto-generated method stub
+		System.out.println("inside addUser");
+		User user = mapper.map(dto, User.class);
+		String encryPassword = passwordEncoder.encode(user.getPassword());
+		user.setPassword(encryPassword);
+		userDao.save(user);
+		return "Data Added Successfully";
+	}
+	
+}

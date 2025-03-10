@@ -1,0 +1,13 @@
+package com.celebrateit.service;
+
+import com.celebrateit.dto.UserDto;
+
+public class UserServiceImpl implements UserService {
+
+	@Override
+	public UserDto getUserByUserId(String userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

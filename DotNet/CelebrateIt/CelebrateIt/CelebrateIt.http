@@ -1,0 +1,6 @@
+@CelebrateIt_HostAddress = http://localhost:5078
+
+GET {{CelebrateIt_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

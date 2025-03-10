@@ -1,0 +1,12 @@
+package com.celebrateit.service;
+
+import com.celebrateit.dto.LoginRequestDTO;
+import com.celebrateit.dto.SignupRequestDTO;
+
+public interface AuthService {
+
+	String authenticate(LoginRequestDTO dto);
+
+	String addUser(SignupRequestDTO dto);
+
+}

@@ -1,0 +1,21 @@
+package com.celebrateit.mapper;
+
+import com.celebrateit.dto.BookingsDTO;
+import com.celebrateit.model.Bookings;
+import org.modelmapper.ModelMapper;
+import org.springframework.stereotype.Component;
+
+@Component
+public class BookingsMapper {
+
+    private final ModelMapper modelMapper = new ModelMapper();
+
+    public BookingsDto toDto(Booking booking) {
+        return modelMapper.map(booking, BookingsDto.class);
+    }
+
+    public Bookings toEntity(BookingsDto bookingDto) {
+        return modelMapper.map(bookingDto, Booking.class);
+    }
+}
+

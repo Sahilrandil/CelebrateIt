@@ -1,0 +1,49 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  } */
+  
+  .sidebar {
+    height: 100vh;
+    background: #7fbfff;
+  }
+  
+  .sidebar a,
+  .sidebar .dropdown-toggle {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #ffffff;
+  }
+  
+  .sidebar a:hover,
+  .sidebar .dropdown-toggle:hover {
+    color: #2e82ff;  
+  }
+  
+  /* .card-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+  } */
+  
+  /* .card-text {
+    font-size: 1.2rem;
+  } */
+  
+  .react-calendar {
+    width: 100%;
+    border: none;
+    background: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .react-calendar {
+    width: 100%;
+    border: none;
+    background: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .react-calendar__tile--active {
+    background-color: #007bff;
+    color: white;
+  }
+  

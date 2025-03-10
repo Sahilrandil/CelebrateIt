@@ -1,0 +1,369 @@
+.admin-dashboard {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+}
+
+.add-service-form {
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 700px;
+}
+
+.add-service-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.add-service-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 200px;
+}
+
+.add-service-btn:hover {
+    background-color: #218838;
+    width: 200px;
+}
+
+.services-container {
+    margin-top: 20px;
+}
+
+.category-section {
+    margin-bottom: 40px;
+}
+
+.category-section h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.services-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: auto;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.service-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.service-card h3 {
+    margin: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.service-card p {
+    margin: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.card-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+
+.edit-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-btn:hover {
+    background-color: #0056b3;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+@media screen and (max-width: 768px) {
+    .add-service-form {
+        width: 95%;
+    }
+
+    .services-grid {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .service-card {
+        width: 100%;
+    }
+
+    .add-service-btn {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+}
+/* Style for the delete button */ 
+.delete-service-btn { 
+    background-color: #f44336; 
+    border: none; 
+    color: white; 
+    padding: 10px 20px;
+     text-align: center; 
+     text-decoration: none; 
+     display: inline-block; 
+     font-size: 16px;
+      margin: 10px 5px; 
+      cursor: pointer; 
+      border-radius: 4px; 
+      transition: background-color 0.3s ease; 
+    } 
+    .delete-service-btn:hover 
+    { background-color: #d32f2f; }
+    .update-service-btn 
+    { background-color: #4CAF50; 
+         border: none; 
+         color: white; 
+         padding: 10px 20px; 
+         text-align: center; 
+         text-decoration: none; 
+         display: inline-block; 
+         font-size: 16px; 
+         margin: 10px 5px;
+          cursor: pointer; 
+          border-radius: 4px;
+           transition: background-color 0.3s ease; 
+        } 
+        .update-service-btn:hover { background-color: #45a049; }
+
+        /* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Dashboard Container */
+  .admin-dashboard {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Section */
+  h2 {
+    color: #333;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  /* Buttons */
+  .add-service-btn,
+  .view-services-btn {
+    display: inline-block;
+    padding: 10px 18px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+  }
+  
+  .add-service-btn {
+    background: #28a745;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .view-services-btn {
+    background: #007bff;
+    color: white;
+  }
+  
+  .add-service-btn:hover {
+    background: #218838;
+  }
+  
+  .view-services-btn:hover {
+    background: #0056b3;
+  }
+  
+  /* Form Styling */
+  .add-service-form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+  }
+  
+  /* Service Categories Section */
+  .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  .wedding-services-section,
+  .engagement-services-section,
+  .birthday-services-section,
+  .veg-catering-services-section,
+  .nonveg-catering-services-section,
+  .photography-services-section {
+    background: linear-gradient(135deg, #f9f9f9, #e9ecef);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wedding-services-section h2 {
+    color: #2b2929;
+  }
+  
+  .engagement-services-section h2 {
+    color: #2b2929;
+  }
+  
+  .birthday-services-section h2 {
+    color: #2b2929;
+  }
+  
+  .veg-catering-services-section h2 {
+    color: #2b2929;
+  }
+  
+  .nonveg-catering-services-section h2 {
+    color: #2b2929;
+  }
+  .photography-services-section h2{
+    color: #2b2929;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .admin-dashboard {
+      padding: 15px;
+    }
+  
+    .services-container {
+      flex-direction: column;
+    }
+  }
+  .sidebar {
+    height: 100vh;
+    position: fixed;
+    top: 56px; /* Adjusted for fixed navbar */
+    left: 0;
+    width: 15%;
+  }
+  
+  .overflow-auto {
+    height: calc(100vh - 56px);
+    overflow-y: auto;
+  }
+  
+  .p-4 {
+    padding: 20px;
+  }
+  
+  
+        
+  

@@ -1,0 +1,7 @@
+package com.celebrateit.service;
+
+import com.celebrateit.dto.ServiceResponseDTO;
+
+public interface UsersService {
+	UsersResponseDTO getUsersDetailsById(Integer userid);
+}

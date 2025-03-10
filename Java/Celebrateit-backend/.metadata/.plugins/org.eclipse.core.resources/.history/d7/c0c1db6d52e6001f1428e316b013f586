@@ -1,0 +1,11 @@
+package com.celebrateit.dto;
+
+public class UsersResponseDTO {
+
+	public UsersResponseDTO() {
+		 private String userName;
+		 private String email;
+		 private String contactNumber;
+	}
+
+}
