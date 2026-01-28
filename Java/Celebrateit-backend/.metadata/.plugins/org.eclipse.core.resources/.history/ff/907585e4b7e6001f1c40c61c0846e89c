@@ -1,7 +1,0 @@
-package com.celebrateit.dao;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-import com.celebrateit.pojo.Bookings;
-
-public interface BookingsDao extends JpaRepository<Bookings, Integer> {
-}

@@ -1,9 +1,0 @@
-package com.celebrateit.controller;
-
-public class UsersController {
-
-	public UsersController() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

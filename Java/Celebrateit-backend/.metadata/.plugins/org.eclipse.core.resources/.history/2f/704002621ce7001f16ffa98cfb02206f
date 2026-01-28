@@ -1,9 +1,0 @@
-package com.celebrateit.dto;
-
-public class FeedbackRequestDTO {
-
-	public FeedbackRequestDTO() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

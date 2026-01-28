@@ -1,7 +1,0 @@
-package com.celebrateit.service;
-
-import com.celebrateit.dto.BookingsDTO;
-
-public interface BookingsService {
-    int addBooking(BookingsDTO dto);
-}

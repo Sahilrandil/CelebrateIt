@@ -1,9 +1,0 @@
-package com.celebrateit.dto;
-
-public class BookingsDisplayDTO {
-
-	public BookingsDisplayDTO() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

@@ -1,9 +1,0 @@
-package com.celebrateit.dto;
-
-public class UserUpdateDTO {
-
-	public UserUpdateDTO() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

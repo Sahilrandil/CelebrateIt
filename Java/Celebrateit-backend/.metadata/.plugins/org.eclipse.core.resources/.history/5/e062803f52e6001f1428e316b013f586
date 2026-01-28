@@ -1,9 +1,0 @@
-package com.celebrateit.dto;
-
-public class UsersResponseDTO {
-
-	public UsersResponseDTO() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

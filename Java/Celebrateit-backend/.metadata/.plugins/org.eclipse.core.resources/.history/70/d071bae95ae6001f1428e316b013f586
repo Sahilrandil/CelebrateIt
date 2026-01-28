@@ -1,9 +1,0 @@
-package com.celebrateit.dao;
-
-public class BookingsDao {
-
-	public BookingsDao() {
-		// TODO Auto-generated constructor stub
-	}
-
-}
